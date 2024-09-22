@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejercicio1.vb" />
+    <Compile Include="Ejercicio2.vb" />
     <Compile Include="Module2.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

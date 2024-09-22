@@ -1,32 +1,70 @@
-﻿Imports System.Globalization
-Imports System.Runtime.InteropServices
+﻿Module Module2
 
-Module Module2
     Sub main()
-        'Determinar si el número es positivo o negativo.
-        Dim num1 As String
 
-        Console.Write("Introduce un número: ")
-        num1 = Console.ReadLine()
+        'Programa que de acuerdo con un monto de compra muestre el descuento aplicado y total a pagar.
 
-        If (num1 >= 1) Then
+        Console.Write("Ingrese el monto de compra: ")
 
-            Console.WriteLine("El número es positivo.")
+        Dim monto As Decimal = Console.ReadLine()
+        Dim descuento As Decimal = 0.0
+        Dim total As Decimal
 
-        ElseIf (num1 <= -1) Then
+        If (monto >= 1000) Then
 
-            Console.WriteLine("El número es negativo.")
+            descuento = 0.3 ' 30% de descuento para compras de 1000 o más
 
-        ElseIf (num1 = 0) Then
+            descuento = monto * descuento
+            total = monto - descuento
 
-            Console.WriteLine("El número es neutro.")
+            Console.WriteLine($"Descuento aplicado: {descuento:C}")
 
-        Else
+            Console.WriteLine($"Total a pagar: {total:C}")
 
-            Console.WriteLine("Por favor, introduce un número válido.")
+            Console.WriteLine("Presione cualquier tecla para continuar...")
 
+        ElseIf (monto >= 500 AndAlso monto <= 999) Then
+
+            descuento = 0.2 ' 20% de descuento para compras de 500 o más
+
+            descuento = monto * descuento
+            total = monto - descuento
+
+            Console.WriteLine($"Descuento aplicado: {descuento:C}")
+
+            Console.WriteLine($"Total a pagar: {total:C}")
+
+            Console.WriteLine("Presione cualquier tecla para continuar...")
+
+        ElseIf (monto >= 250 AndAlso monto <= 499) Then
+
+            descuento = 0.1 ' 10% de descuento para compras de 500 o más
+
+            descuento = monto * descuento
+            total = monto - descuento
+
+            Console.WriteLine($"Descuento aplicado: {descuento:C}")
+
+            Console.WriteLine($"Total a pagar: {total:C}")
+
+            Console.WriteLine("Presione cualquier tecla para continuar...")
+
+        ElseIf (monto <= 249) Then
+
+            descuento = 0.05 ' 5% de descuento para compras de 100 o más
+
+            descuento = monto * descuento
+            total = monto - descuento
+
+            Console.WriteLine($"Descuento aplicado: {descuento:C}")
+
+            Console.WriteLine($"Total a pagar: {total:C}")
+
+            Console.WriteLine("Presione cualquier tecla para continuar...")
 
         End If
+
+        Console.ReadKey()
 
     End Sub
 

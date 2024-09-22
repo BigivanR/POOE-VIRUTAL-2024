@@ -9,8 +9,12 @@
         Console.WriteLine("Ingrese su edad: ")
         Edad = Console.ReadLine()
 
-        If Edad >= mayor Then Console.WriteLine("Es mayor de edad")
-        If Edad <= menor Then Console.WriteLine("Es menor de edad")
+        If Edad >= mayor Then
+            Console.WriteLine("Es mayor de edad")
+        End If
+        If Edad <= menor Then
+            Console.WriteLine("Es menor de edad")
+        End If
 
         Console.ReadKey() ' pause
 
