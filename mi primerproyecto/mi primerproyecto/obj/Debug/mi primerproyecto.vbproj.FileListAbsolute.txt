@@ -1,0 +1,11 @@
+D:\Repos\mi primerproyecto\mi primerproyecto\bin\Debug\mi primerproyecto.exe.config
+D:\Repos\mi primerproyecto\mi primerproyecto\bin\Debug\mi primerproyecto.exe
+D:\Repos\mi primerproyecto\mi primerproyecto\bin\Debug\mi primerproyecto.pdb
+D:\Repos\mi primerproyecto\mi primerproyecto\bin\Debug\mi primerproyecto.xml
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi primerproyecto.vbproj.AssemblyReference.cache
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi_primerproyecto.Resources.resources
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi primerproyecto.vbproj.GenerateResource.cache
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi primerproyecto.vbproj.CoreCompileInputs.cache
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi primerproyecto.exe
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi primerproyecto.xml
+D:\Repos\mi primerproyecto\mi primerproyecto\obj\Debug\mi primerproyecto.pdb
