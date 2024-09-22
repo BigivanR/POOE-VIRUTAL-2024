@@ -1,6 +1,6 @@
-﻿Module Module2
+﻿Module Ejercicio3
 
-    Sub main()
+    Sub descuento()
 
         'Programa que de acuerdo con un monto de compra muestre el descuento aplicado y total a pagar.
 

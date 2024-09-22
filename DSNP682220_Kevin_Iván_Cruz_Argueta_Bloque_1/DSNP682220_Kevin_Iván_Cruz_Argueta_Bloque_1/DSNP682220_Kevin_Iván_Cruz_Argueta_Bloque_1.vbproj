@@ -86,7 +86,9 @@
   <ItemGroup>
     <Compile Include="Ejercicio1.vb" />
     <Compile Include="Ejercicio2.vb" />
-    <Compile Include="Module2.vb" />
+    <Compile Include="Ejercicio3.vb" />
+    <Compile Include="Ejercicio4.vb" />
+    <Compile Include="Ejercicio5.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

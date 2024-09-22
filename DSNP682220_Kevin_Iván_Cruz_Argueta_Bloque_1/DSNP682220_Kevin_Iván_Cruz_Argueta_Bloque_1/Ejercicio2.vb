@@ -2,7 +2,7 @@
 Imports System.Runtime.InteropServices
 
 Module Ejercicio2
-    Sub main()
+    Sub numeropon()
         'Determinar si el número es positivo o negativo.
         Dim num1 As String
 
