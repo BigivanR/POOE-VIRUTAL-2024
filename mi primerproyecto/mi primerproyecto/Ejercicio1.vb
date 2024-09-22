@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module Ejericio1
 
     Sub Main()
         Console.WriteLine("Num 1: ")
