@@ -14,6 +14,8 @@
             Select Case opcion
                 Case 1
                     longitud()
+                Case 2
+                    masa()
                 Case Else
                     continuar = "n"
             End Select
